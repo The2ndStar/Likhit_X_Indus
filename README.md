@@ -10,16 +10,6 @@ train/good: 231 images used for the Autoencoder training phase.
 test/: 69 images across 5 categories (good, bent_lead, cut_lead, damaged_case, misplaced) used for evaluation and PCA/Random Forest classification.
 
 
-Likhit_X_Indus/
-├── data/
-│   ├── train/            # 231 'Good' images for training
-│   └── test/             # 69 images (good, bent_lead, cut_lead, etc.)
-├── CNN_model.py          # The Autoencoder Architecture
-├── CNN_train.py          # Training script (MAE Loss + BatchNormalization)
-├── CNN_test.py           # Test CNN
-├── requirements.txt      # Library dependencies
-└── .gitignore            # Prevents uploading large image folders
-
 
 🛠️ How to Run
 1. Setup Environment
